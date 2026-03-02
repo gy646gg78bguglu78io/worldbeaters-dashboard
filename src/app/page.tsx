@@ -11,7 +11,7 @@ export default function Home() {
       <main className="flex-1 p-8 ml-64">
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-white">Dashboard</h1>
-          <p className="text-muted mt-1">Welcome back! Here&apos;s what&apos;s happening at WorldBeaters.</p>
+          <p className="text-muted mt-1">Welcome back! Here&apos;s what&apos;s happening at WorldBeaters. <span className="text-accent-green font-medium">Auto-deploy is live!</span></p>
         </div>
 
         {/* KPI Cards */}
