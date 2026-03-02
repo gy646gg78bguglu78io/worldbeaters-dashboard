@@ -27,7 +27,20 @@
       "Bash(git commit -m \"Initial commit: WorldBeaters dashboard app\")",
       "Bash(gh api user --jq '.login,.email,.name')",
       "Bash(git config user.email \"gy646gg78bguglu78io@users.noreply.github.com\")",
-      "Bash(git config user.name \"gy646gg78bguglu78io\")"
+      "Bash(git config user.name \"gy646gg78bguglu78io\")",
+      "Bash(gh repo create worldbeaters-dashboard --public --source=. --remote=origin --push)",
+      "mcp__01ffe800-1cd8-45ca-b92f-9e9e8c64d20d__list_teams",
+      "mcp__01ffe800-1cd8-45ca-b92f-9e9e8c64d20d__list_projects",
+      "mcp__01ffe800-1cd8-45ca-b92f-9e9e8c64d20d__deploy_to_vercel",
+      "Bash(npx vercel --version)",
+      "Bash(npx vercel link --yes)",
+      "Bash(npx vercel login)",
+      "Bash(npx vercel link --yes --project worldbeaters-dashboard)",
+      "Bash(npx vercel --yes --prod)",
+      "Bash(git add src/app/page.tsx)",
+      "Bash(git commit -m \"Add auto-deploy confirmation message\")",
+      "Bash(git push)",
+      "Bash(git commit -m \"Add interactive pages: Analytics, Customers, Products, Orders, Settings:*)"
     ]
   }
 }
