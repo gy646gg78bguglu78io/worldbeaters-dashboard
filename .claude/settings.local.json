@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node:*)",
+      "Bash(npm --version:*)",
+      "Bash(git --version)",
+      "Bash(cmd.exe /c \"node --version\")",
+      "Bash(cmd.exe /c \"node --version && npm --version && where vercel\")",
+      "Bash(cmd.exe /c \"node --version 2>&1 & npm --version 2>&1 & vercel --version 2>&1\")",
+      "Bash(/c/Windows/System32/cmd.exe /c \"echo hello\")",
+      "Bash(powershell.exe -Command \"node --version; npm --version; Get-Command vercel -ErrorAction SilentlyContinue | Select-Object Source\")",
+      "Bash(npx --version)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --no-import-alias --use-npm)",
+      "Bash(npx create-next-app@latest worldbeaters-dashboard --typescript --tailwind --eslint --app --src-dir --no-import-alias --use-npm)",
+      "Bash(npx create-next-app@latest worldbeaters-dashboard --typescript --tailwind --eslint --app --src-dir --no-import-alias --use-npm --no-turbopack 2)",
+      "Bash(1:*)",
+      "Bash(npm run build)",
+      "Bash(gh auth status)",
+      "Bash(choco install gh -y)",
+      "Bash(winget install --id GitHub.cli --accept-source-agreements --accept-package-agreements)",
+      "Bash(export PATH=\"$PATH:/c/Program Files/GitHub CLI:/c/Program Files \\(x86\\)/GitHub CLI\")",
+      "Bash(gh --version)",
+      "Bash(export PATH=\"$PATH:/c/Program Files/GitHub CLI\")",
+      "Bash(gh auth login --web -p https)",
+      "Bash(git init)",
+      "Bash(git add -A)",
+      "Bash(git commit -m \"Initial commit: WorldBeaters dashboard app\")",
+      "Bash(gh api user --jq '.login,.email,.name')",
+      "Bash(git config user.email \"gy646gg78bguglu78io@users.noreply.github.com\")",
+      "Bash(git config user.name \"gy646gg78bguglu78io\")"
+    ]
+  }
+}
